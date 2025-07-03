@@ -1,0 +1,37 @@
+# 데이터 폴더 (데이터는 보통 용량 크고 민감해서 제외)
+data/
+
+# Python 캐시 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경 폴더 (예: venv, env)
+venv/
+env/
+.venv/
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 모델 저장 파일 (필요시 제외 가능)
+models/
+
+# 결과 저장 폴더
+results/
+
+# 로그 파일
+*.log
+
+# IDE 설정 파일 (VSCode)
+.vscode/
+
+# OS별 메타파일
+.DS_Store
+Thumbs.db
+
+# 패키지 매니저가 생성하는 파일 (pip, poetry 등)
+*.egg-info/
+dist/
+build/
