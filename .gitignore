@@ -12,6 +12,9 @@ venv/
 env/
 .venv/
 
+# Anaconda 설정 파일 (필요시)
+.conda/
+
 # Jupyter Notebook 체크포인트
 .ipynb_checkpoints/
 
